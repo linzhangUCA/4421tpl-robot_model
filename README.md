@@ -7,7 +7,7 @@ Create a model for your robot using URDF. Tutorial: [URDF](https://docs.ros.org/
 cd <your ros workspace>/src
 git clone git@github.com:UCAEngineeringPhysics/a2-robot_model-<your github username>.git
 cd ..
-colcon build --package-select diffbot_urdf
+colcon build --packages-select diffbot_urdf
 ```
 2. (80%) Create your robot's model by modifying the description file: `diffbot_urdf/urdf/diffbot.urdf.xacro`. You are encouraged to use [xacro](https://docs.ros.org/en/humble/Tutorials/Intermediate/URDF/Using-Xacro-to-Clean-Up-a-URDF-File.html) to ease the process. 
 
